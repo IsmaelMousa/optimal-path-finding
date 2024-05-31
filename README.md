@@ -1,2 +1,1 @@
-# playing-with-algorithms
-...
+# Playing With AI Algorithms
