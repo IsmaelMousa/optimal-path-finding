@@ -37,7 +37,7 @@ def a_star_search(grid: list[list[str]],
 
     came_from = {}
     g_score = {start: 0}
-    f_score = {start: heuristic(start, goal)}
+    f_score = {start: heuristic(a=start, b=goal)}
 
     directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
@@ -66,7 +66,7 @@ def a_star_search(grid: list[list[str]],
                     came_from[neighbor] = current
 
                     g_score[neighbor] = tentative_g_score
-                    f_score[neighbor] = tentative_g_score + heuristic(neighbor, goal)
+                    f_score[neighbor] = tentative_g_score + heuristic(a=neighbor, b=goal)
 
                     heapq.heappush(open_list, (f_score[neighbor], neighbor))
 
