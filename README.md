@@ -1,6 +1,6 @@
 # Fundamental of Artificial Intelligence - A* algorithm
 
-This repository contains the `A* algorithm` assignment for the **Fundamental of Artificial Intelligence** course at [An-Najah National
+This repository contains my `A* algorithm` assignment for the **Fundamental of Artificial Intelligence** course at [An-Najah National
 University (NNU)](https://www.najah.edu/en/#).
 
 ## Overview
